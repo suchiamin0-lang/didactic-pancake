@@ -1,0 +1,7 @@
+# Local environment / secrets — never commit your real Wanderlog cookie
+.env
+.env.local
+
+# Node
+node_modules/
+npm-debug.log*
