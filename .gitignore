@@ -1,6 +1,11 @@
-# Local environment / secrets — never commit your real Wanderlog cookie
+# Local environment / secrets — never commit your real values
 .env
 .env.local
+
+# Gmail OAuth app keys and per-account login tokens — treat like passwords
+gcp-oauth.keys.json
+credentials*.json
+.gmail-mcp/
 
 # Node
 node_modules/

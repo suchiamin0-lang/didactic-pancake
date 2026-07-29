@@ -1,10 +1,19 @@
 {
   "mcpServers": {
-    "wanderlog": {
+    "gmail-personal": {
       "command": "npx",
-      "args": ["-y", "wanderlog-mcp"],
+      "args": ["-y", "@gongrzhe/server-gmail-autoauth-mcp"],
       "env": {
-        "WANDERLOG_COOKIE": "${WANDERLOG_COOKIE}"
+        "GMAIL_OAUTH_PATH": "${GMAIL_OAUTH_PATH}",
+        "GMAIL_CREDENTIALS_PATH": "${GMAIL_PERSONAL_CREDENTIALS_PATH}"
+      }
+    },
+    "gmail-work": {
+      "command": "npx",
+      "args": ["-y", "@gongrzhe/server-gmail-autoauth-mcp"],
+      "env": {
+        "GMAIL_OAUTH_PATH": "${GMAIL_OAUTH_PATH}",
+        "GMAIL_CREDENTIALS_PATH": "${GMAIL_WORK_CREDENTIALS_PATH}"
       }
     }
   }
