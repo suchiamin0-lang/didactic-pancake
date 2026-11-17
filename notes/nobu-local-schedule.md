@@ -1,4 +1,4 @@
-Paste this into Claude Desktop (Cowork) on your Mac:
+Paste this into Claude Desktop (Cowork) on your PC:
 
 Create two one-time scheduled tasks that run on THIS computer, using Claude in Chrome:
 
